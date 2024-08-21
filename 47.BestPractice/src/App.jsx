@@ -1,25 +1,7 @@
 
 import {CORE_CONCEPTS} from './data.js' 
 import Header from './components/Header.jsx'
-// BASIC WAY
-// function CoreConcept(props){ 
-//   return <li>
-//     <img src={props.image} alt='...'></img>
-//     <h3>{props.title}</h3>
-//     <p>{props.description}</p>
-//   </li>
-// }
-// SIMPLE WAY
-function CoreConcept({image, title, description}){ //USING DESTRUCTURING, MAKE SURE THE OBJECT KEY SAME AS THE DESCTRUCTURING
-  return <li>
-    <img src={image} alt={title}></img>
-    <h3>{title}</h3>
-    <p>{description}</p>
-  </li>
-}
-
-
-
+import CoreConcept from './components/CoreConcept.jsx';
 function App() {
   return (
     <div>
