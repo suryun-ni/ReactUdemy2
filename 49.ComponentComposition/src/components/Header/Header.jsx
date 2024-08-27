@@ -12,7 +12,7 @@ export default function Header() {
         <h1>React Essentials</h1>
         <p>49. Componenet Composition: The special children Prop</p>
         <p> 
-          Deskripsi :
+          Deskripsi : menambahkan button dengan tag list, lalu untuk membuat button dengna model prop agar mirip html tag, lalu
 
 
         </p>
